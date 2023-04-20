@@ -4,6 +4,7 @@
   "description": "Prints random chemical compound.",
   "type": "module",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
     "test": "node dist/test.js",
