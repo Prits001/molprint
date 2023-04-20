@@ -2,6 +2,7 @@
     <a href="https://www.npmjs.com/package/molprint"><img src="https://img.shields.io/npm/v/molprint.svg?maxAge=3600" alt="npm version" /></a>
     <a href="https://www.npmjs.com/package/molprint"><img src="https://img.shields.io/npm/dt/molprint.svg?maxAge=3600" alt="npm downloads" /></a>
 </div>
+
 # MolPrint NPM Package
 Npm package providing random chemical compounds.
 
@@ -14,12 +15,12 @@ npm install molprint
 ## Use
 1. **Import the package function..**
 
-    JavaScript/TypeScript:
-    ```js
-    const getCompound = require("molprint");
-    ```
+    
+    
+    
+    
 
-    TypeScript:
+    
     ```ts
     import getCompound from "molprint";
     ```
