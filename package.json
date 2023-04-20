@@ -1,0 +1,44 @@
+{
+  "name": "molprint",
+  "version": "1.0.0",
+  "description": "Prints random chemical compound.",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "node dist/test.js",
+    "prepublish": "npm run build",
+    "prepare": "npm run build"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "directories": {
+    "lib": "src",
+    "test": "node dist/test.js",
+    "build": "tsc",
+    "prepublish": "npm run build",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Prits001/molprint.git"
+  },
+  "contributors": [
+    "Prits <Pri1s@proton.me>"
+  ],
+  "keywords": [
+    "random",
+    "chemistry"
+  ],
+  "author": "Prits",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Prits001/molprint/issues"
+  },
+  "homepage": "https://github.com/Prits001/molprint#readme",
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  }
+}
