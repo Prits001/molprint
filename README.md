@@ -1,3 +1,7 @@
+<div align="center">
+    <a href="https://www.npmjs.com/package/molprint"><img src="https://img.shields.io/npm/v/myfacts.svg?maxAge=3600" alt="npm version" /></a>
+    <a href="https://www.npmjs.com/package/molprint"><img src="https://img.shields.io/npm/dt/myfacts.svg?maxAge=3600" alt="npm downloads" /></a>
+</div>
 # MolPrint NPM Package
 Npm package providing random chemical compounds.
 
