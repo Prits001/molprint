@@ -1,6 +1,6 @@
 {
   "name": "molprint",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Prints random chemical compound.",
   "type": "module",
   "main": "dist/index.js",
