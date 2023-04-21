@@ -24,7 +24,9 @@ npm install molprint
     console.log(compound);
     ```
     This will output a random chemical compound with description to the console.
-    `getCompound()` has an optional boolean parameter `detailed`: true by default.\n
+    
+    `getCompound()` has an optional boolean parameter `detailed`: true by default.
+    
     If `detailed`: false, only the compound will be output, without description.
     ```js
     import getCompound from "./index.js";
