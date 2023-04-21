@@ -14,13 +14,6 @@ npm install molprint
 
 ## Use
 1. **Import the package function..**
-
-    
-    
-    
-    
-
-    
     ```ts
     import getCompound from "molprint";
     ```
@@ -30,6 +23,13 @@ npm install molprint
     const compound = getCompound();
     console.log(compound);
     ```
-This will output a random chemical compound to the console.
+    This will output a random chemical compound with description to the console.
+    `getCompound()` has an optional boolean parameter `detailed`: true by default.\n
+    If `detailed`: false, only the compound will be output, without description.
+    ```js
+    import getCompound from "./index.js";
+    console.log(getCompound(false)); 
+    //Out: { compound: 'Ethanol (C2H5OH)' }
+    ```
 #
 ### If you'd like to contribute, feel free to submit a pull request.
